@@ -641,9 +641,6 @@ p {
   padding: 16px 0;
   transition: all 1s ease;
 }
-.fixed > li > a {
-  color: black;
-}
 .logo_head {
   float: left;
   position: relative;
@@ -1945,4 +1942,40 @@ form .filed_form textarea:-moz-placeholder {
   margin: 0 3px;
   color: #000;
   font-size: 18px;
+}
+
+
+
+.wpo-site-footer .container {
+  position: relative;
+}
+
+.wpo-site-footer .wpo-lower-footer {
+  text-align: center;
+  position: relative;
+  background: #fff;
+}
+
+.wpo-site-footer .wpo-lower-footer .row {
+  padding: 20px 0;
+  position: relative;
+}
+
+.wpo-site-footer .wpo-lower-footer .copyright {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  color: #D66371;
+}
+
+.wpo-site-footer .wpo-lower-footer .copyright a {
+  color: #D66371;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .wpo-site-footer .wpo-lower-footer .copyright {
+    float: none;
+    display: block;
+  }
 }
